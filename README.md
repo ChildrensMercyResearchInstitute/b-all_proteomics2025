@@ -1,5 +1,5 @@
 # Introduction 
-Analysis code (in R) for integrated multi-omic analysis (transcriptome + proteome + phosphoproteome) of pediatric B-cell acute lymphoblastic leukemia (B-ALL) patient samples.
+Analysis code (in R) for integrated multi-omic analysis (transcriptome + proteome + phosphoproteome) of pediatric B-cell acute lymphoblastic leukemia (B-ALL) patient samples. Full manuscript available on [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.08.13.670107v1)
 
 In this study, we used mass spectrometry to generate global proteomic and phosphoproteomic profiles of pediatric leukemia patient samples. We generated data at diagnosis (D) and remission (N) for five patients each with Ph-like and ETV6::RUNX1 B-ALL. Full methodological details can be found in the manuscript. We also incorporated existing bulk RNAseq data for these and other patient samples generated at Children's Mercy. RNAseq data available through [dbGaP](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002529.v2.p1). Finally, we integrated transcriptomic, proteomic, and phosphoproteomic data using Multiple Co-Inertia Analysis (MCIA) via the [omicade4 package](https://www.bioconductor.org/packages/release/bioc/html/omicade4.html).
 
@@ -17,4 +17,5 @@ We performed separate analysis for each individual 'omics dataset, as well as MC
 4.	MCIA.R
 
 # Contact
+
 For questions, please contact [Irina Pushel](mailto:ipushel@cmh.edu)
